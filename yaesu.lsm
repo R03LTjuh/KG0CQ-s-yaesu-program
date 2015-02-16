@@ -1,7 +1,8 @@
 Begin4
 Title:          yaesu
-Version:        0.13
+Version:        0.14
 Entered-date:   01SEP05
+Altered-Date:	13-Janu-2015
 Description:    Archaic program to control a Yaesu FT-890 HF
 		transceiver off of a serial port.  This is
 		of interest to a ham radio operator or SWL.
@@ -10,8 +11,6 @@ Author:         kg0cq@amsat.org (Emarit Ranu)
 Maintained-by:  No further maintenance by author.
 Primary-site:   http://www.ibiblio.org/pub/linux/apps/ham/
 		24kB yaesu.tar.gz
-Alternate-site: 
-Original-site:  
 Platforms:      Linux
-Copying-policy: Public domain, no copying or use restrictions.
+Copying-policy: General Public Licence V3
 End
