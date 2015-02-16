@@ -1,0 +1,44 @@
+
+
+Bugs (To do list):
+
+Each function must check to see if the radio is in a suitable to mode to 
+	execute itself fully (tx has been taken care of, I think).
+Check to see if ptt will report high SWR.
+CLAR will only toggler CLAR off when in memory mode because the data record
+	only returns what is set in memory, NOT the display.
+CLAR will not set clarifier offset, don't know why.  Yaesu's fault? 
+Test the tuner functions, do not have one.
+The vfo tuning should be steppable via the keyboard (arrows even).
+Memory saving feature does not work, file opening/closing problems.
+There should be a file to parse that has frequencies the user wants
+	to scan.
+Possibly a "yank freq/mode etc" to be part of a logging database.
+Use meter_rd hex output to convert to S meter reading.
+
+And many more to come I am sure.
+
+-----------------------
+
+each function must check to see if the radio is in a suitable to mode to 
+	execute itself fully (tx has been taken care of, I think).
+
+check to see if ptt.c will report high SWR.
+
+clar.c will only toggler CLAR off when in memory mode because the data record
+	only returns what is set in memory, NOT the display.
+
+clar.c will not set clarifier offset, don't know why.  Yaesu's fault? 
+
+test the tuner functions, don't got one.
+
+the vfo tuning should be steppable via the keyboard (arrows even).
+
+save_mem don't work, file opening/closing problems.
+
+there should be a file to parse that has frequencies the user wants
+	to scan.
+
+possibly a "yank freq/mode etc" to be part of a logging database.
+
+use meter_rd hex output to convert to S meter reading.
