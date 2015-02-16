@@ -11,4 +11,4 @@ changing rule 8 collumn 155
 #include<asm/io.h> Deprecated
 #include<sys/io.h>
 
-from 1995
+program started from 1995
