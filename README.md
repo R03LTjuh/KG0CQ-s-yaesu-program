@@ -116,6 +116,3 @@ and copying section below.
 If you would like to recompile the binary, just type 'make'.
 
 Enjoy my program, this is why it was written.  Hope to catch you on the air!!
-
-	Emarit Ranu  KG0CQ
-	email:       kg0cq@ampr.org
