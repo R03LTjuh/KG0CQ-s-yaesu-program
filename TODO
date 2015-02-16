@@ -1,5 +1,4 @@
-
-
+not verry harmfull read carefully.
 Bugs (To do list):
 
 Each function must check to see if the radio is in a suitable to mode to 
@@ -15,7 +14,6 @@ There should be a file to parse that has frequencies the user wants
 	to scan.
 Possibly a "yank freq/mode etc" to be part of a logging database.
 Use meter_rd hex output to convert to S meter reading.
-
 And many more to come I am sure.
 
 -----------------------
@@ -23,7 +21,7 @@ And many more to come I am sure.
 each function must check to see if the radio is in a suitable to mode to 
 	execute itself fully (tx has been taken care of, I think).
 
-check to see if ptt.c will report high SWR.
+check to see if ptt.c will report high SWR on radio.
 
 clar.c will only toggler CLAR off when in memory mode because the data record
 	only returns what is set in memory, NOT the display.
