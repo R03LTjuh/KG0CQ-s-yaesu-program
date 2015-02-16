@@ -1,6 +1,6 @@
 Changelog 2015 yeasu0.14
 R. Adema nl13729+
-Updated Makefile to support amd 64bit architechture
+Updated Makefile to support amd 64bit AMD architechture
 Inspect Makefile architecture FLAGS for support of other architechtures
 +Makefile
 +FLAGS = -march=athlon64 -m64 -funsigned-char 
