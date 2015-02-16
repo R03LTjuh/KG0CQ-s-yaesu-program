@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <termios.h>
 #include <signal.h>
-#include<sys/io.h>
+#include <sys/io.h>
 #include <config.h>
 float freq_to_change_to;
 char flag_data_return[5];
