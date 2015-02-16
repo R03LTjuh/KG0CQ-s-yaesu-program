@@ -1,14 +1,6 @@
 Changelog 2015 yeasu0.14
 R. Adema nl13729+
-Makefile
-FLAGS = -march=athlon64 -m64 -funsigned-char 
-to support 64bit architecture,
-to support other architecture use a searchengine on the
-Makefile architecture FLAGS
-
-main.c
-changing rule 8 collumn 155
-#include<asm/io.h> Deprecated
-#include<sys/io.h>
-
+Updated Makefile to support amd 64bit architechture
+Inspect Makefile architecture FLAGS for support of other architechtures
+Updated Main.c Deprecated file
 program started from 1995
