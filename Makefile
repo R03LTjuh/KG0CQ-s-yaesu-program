@@ -3,6 +3,7 @@ CC = gcc
 FLAGS = -march=athlon64 -m64 -funsigned-char
 OBJS = aux.o bright.o clar.o ctcss.o freq_out.o ham_gen.o lock.o main.o mem_hide.o mem_2vfo.o mem_scsk.o meter_rd.o mode.o outport.o pacing.o ptt.o rd_flags.o mem_rec.o rptr_off.o save_mem.o splt_tog.o strt_tun.o stat_upd.o stat_out.o step.o tuner10.o vfo_ab.o vfo_2mem.o repeater.o vfo_a2b.o wwv_find.o yaesu.o
 all:	program
+
 program:: $(OBJS)
 	$(CC) $(FLAGS) -I $(INCDIR) -Wall -o yaesu $(OBJS)
 
