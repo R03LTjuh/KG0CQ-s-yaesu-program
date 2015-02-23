@@ -20,6 +20,8 @@ So it would support 64bit architecture
 and could support other architectures
 understanding architecture makefile support
 
+aswell as updated depricated file support wich linux now supports in /sys
+
 ------------------------
 Overview:
 
